@@ -286,6 +286,13 @@ let g:airline#extensions#tabline#show_tabs = 0
 " Enable powerline fonts.
 let g:airline_powerline_fonts = 1
 
+" Enable powerline font in MacVim or gVim
+if has("gui_running")
+   set guifont=Meslo\ LG\ M\ for\ Powerline:h11
+   set lines=999
+   set columns=9999
+endif
+
 " Explicitly define some symbols that did not work well for me in Linux.
 if !exists('g:airline_symbols')
     let g:airline_symbols = {}

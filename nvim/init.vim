@@ -104,6 +104,10 @@ set textwidth=80
 set title                         " let vim set the terminal title
 set updatetime=100                " redraw the status bar often
 
+
+" set bindings to edit $VIMRC
+nnoremap <leader>ev :vsplit $MYVIMRC<cr>
+
 " neovim specific settings
 if has('nvim')
     " Set the Python binaries neovim is using. Please note that you will need to
@@ -112,7 +116,7 @@ if has('nvim')
     " pip3.6 install -U neovim
     let g:python_host_prog = '/usr/local/bin/python2'
     let g:python3_host_prog = '/usr/local/bin/python3'
-     let g:deoplete#enable_at_startup = 1
+    let g:deoplete#enable_at_startup = 1
 endif
 
 " Enable mouse if possible

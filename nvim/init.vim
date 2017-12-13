@@ -165,6 +165,9 @@ if has('nvim')
     set inccommand=split          " enables interactive search and replace
 endif
 
+" fzf
+set rtp+=/usr/local/opt/fzf
+
 " Clear search highlights
 map <leader>c :nohlsearch<cr>
 

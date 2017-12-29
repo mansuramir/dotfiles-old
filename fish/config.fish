@@ -6,3 +6,5 @@ set -x PATH $PATH /Users/mansur/.fzf/bin
 set -x NODE_PATH /Users/mansur/Code/node_modules $NODE_PATH
 
 set -x PYTHON /usr/local/bin/python3
+
+set -x PKG_CONFIG_PATH $PKG_CONFIG_PATH /usr/local/opt/openssl/lib/pkgconfig

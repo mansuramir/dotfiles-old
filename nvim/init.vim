@@ -67,6 +67,12 @@ Plug 'plasticboy/vim-markdown'
 Plug 'tclh123/vim-thrift'
 Plug 'zchee/deoplete-go', { 'do': 'make'}
 Plug 'zchee/deoplete-jedi'
+Plug 'elixir-lang/vim-elixir'
+Plug 'slashmili/alchemist.vim'
+Plug 'thinca/vim-ref'
+if has('nvim')
+    Plug 'awetzel/elixir.nvim', { 'do': 'yes \| ./install.sh' }
+endif
 
 " Colorschemes
 Plug 'NLKNguyen/papercolor-theme'

@@ -75,6 +75,7 @@ if has('nvim')
 endif
 
 " Colorschemes
+Plug 'iCyMind/NeoSolarized'
 Plug 'NLKNguyen/papercolor-theme'
 
 call plug#end()
@@ -149,7 +150,9 @@ nnoremap <space> zz
 " Colors
 "----------------------------------------------
 set background=dark
-colorscheme PaperColor
+"colorscheme PaperColor
+set termguicolors
+colorscheme NeoSolarized
 
 " Override the search highlight color with a combination that is easier to
 " read. The default PaperColor is dark green backgroun with black foreground.
@@ -301,7 +304,7 @@ let g:airline_powerline_fonts = 1
 
 " Enable powerline font in MacVim or gVim
 if has("gui_running")
-   set guifont=Meslo\ LG\ M\ for\ Powerline:h11
+   set guifont=Meslo\ LG\ M\ for\ Powerline:h12
    set lines=999
    set columns=9999
 endif

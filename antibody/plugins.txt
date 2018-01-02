@@ -9,6 +9,7 @@ Tarrasch/zsh-bd                                           # jump back to a speci
 zsh-users/zsh-completions                           # additional completion definitions for Zsh
 zsh-users/zsh-autosuggestions                     # fish-like autosuggestions for zsh
 junegunn/fzf                                                 # command-line fuzzy finder
-sindresorhus/pure                                         # pretty, minimal and fast zsh prompt
+bhilburn/powerlevel9k				#powerlevel9k
+#sindresorhus/pure                                         # pretty, minimal and fast zsh prompt
 zsh-users/zsh-history-substring-search        # zsh port of the fish shell's history search
 zsh-users/zsh-syntax-highlighting                # fish shell like syntax highlighting for zsh

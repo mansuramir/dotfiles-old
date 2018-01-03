@@ -162,7 +162,8 @@ set background=dark
 "colorscheme PaperColor
 set termguicolors
 let base16colorspace=256
-colorscheme NeoSolarized
+"colorscheme NeoSolarized
+colorscheme base16-ocean
 
 " Override the search highlight color with a combination that is easier to
 " read. The default PaperColor is dark green backgroun with black foreground.

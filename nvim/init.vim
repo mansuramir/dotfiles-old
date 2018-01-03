@@ -26,7 +26,8 @@ Plug 'Shougo/neosnippet'
 Plug 'Shougo/neosnippet-snippets'  " Default snippets for many languages
 Plug 'Shougo/vimproc.vim', {'do' : 'make'}  " Needed to make sebdah/vim-delve work on Vim
 Plug 'Shougo/vimshell.vim'                  " Needed to make sebdah/vim-delve work on Vim
-Plug 'bling/vim-airline'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
 Plug 'christoomey/vim-tmux-navigator'
 Plug 'ctrlpvim/ctrlp.vim'          " CtrlP is installed to support tag finding in vim-go
 Plug 'easymotion/vim-easymotion'
@@ -160,6 +161,7 @@ nnoremap <space> zz
 set background=dark
 "colorscheme PaperColor
 set termguicolors
+let base16colorspace=256
 colorscheme NeoSolarized
 
 " Override the search highlight color with a combination that is easier to
@@ -295,7 +297,7 @@ function! Multiple_cursors_after()
 endfunction
 
 "----------------------------------------------
-" Plugin: bling/vim-airline
+" Plugin: vim-airline/vim-airline
 "----------------------------------------------
 " Show status bar by default.
 set laststatus=2
@@ -323,6 +325,10 @@ if !exists('g:airline_symbols')
 endif
 let g:airline_symbols.branch = ''
 let g:airline_symbols.maxlinenr = ''
+
+" airline color
+let g:airline_solarized_bg='dark'
+
 
 "----------------------------------------------
 " Plugin: christoomey/vim-tmux-navigator

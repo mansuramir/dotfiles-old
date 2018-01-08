@@ -329,7 +329,7 @@ let g:airline_symbols.branch = ''
 let g:airline_symbols.maxlinenr = ''
 
 " airline color
-let g:airline_solarized_bg='dark'
+"let g:airline_solarized_bg='dark'
 
 
 "----------------------------------------------

@@ -86,6 +86,7 @@ Plug 'fsharp/vim-fsharp', {
 " Colorschemes
 Plug 'iCyMind/NeoSolarized'
 Plug 'NLKNguyen/papercolor-theme'
+Plug 'skielbasa/vim-material-monokai'
 
 call plug#end()
 
